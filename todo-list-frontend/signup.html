@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login / Register</title>
+    <title>Sign Up</title>
     
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -26,15 +26,24 @@
         <div class="orb orb6"></div>
     </div>
 
-    <div class="auth-container"> <h1>Signup</h1> <div id="error-message" class="error-box"></div> <form id="login-form"> <input type="email" id="email-input" class="input-field" placeholder="Email" required autocomplete="email">
+    <div class="auth-container">
+        <h1>Signup</h1>
+        <div id="error-message" class="error-box"></div>
+        
+        <form id="signup-form">
+            <input type="email" id="email-input" class="input-field" placeholder="Email" required autocomplete="email">
             <input type="password" id="password-input" class="input-field" placeholder="Password" required autocomplete="current-password">
             <button type="submit" id="submit-button" class="submit-btn">
-                <span class="button-text">Sign Up</span> <div class="loader"></div>
+                <span class="button-text">Sign Up</span>
+                <div class="loader"></div>
             </button>
         </form>
+        
         <p class="auth-switch">
-            Already have an account? <a href="/login.html">Login</a> </p>
+            Already have an account? <a href="/login.html">Login</a>
+        </p>
     </div>
 
-    <script src="signup.js"></script> </body>
+    <script src="signup.js"></script>
+</body>
 </html>
