@@ -4,7 +4,7 @@ const errorMessageDiv = document.getElementById('error-message');
 const emailInput = document.getElementById('email-input');
 const passwordInput = document.getElementById('password-input');
 
-const API_URL = 'http://localhost:5000/api/auth/login';
+const API_URL = 'https://my-todo-list-api-pbbh.onrender.com';
 
 // --- UI Helper Functions ---
 

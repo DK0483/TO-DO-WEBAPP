@@ -4,7 +4,7 @@ const taskInput = document.getElementById('task-input');
 const taskList = document.getElementById('task-list');
 const logoutButton = document.getElementById('logout-btn');
 
-const API_URL = 'http://localhost:5000/api/tasks';
+const API_URL = 'https://my-todo-list-api-pbbh.onrender.com';
 
 // --- Helper Functions for Authentication ---
 
