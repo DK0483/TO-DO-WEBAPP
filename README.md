@@ -13,10 +13,9 @@ Login page: https://to-do-webapp-rose.vercel.app/login.html
     1.  [Prerequisites](#prerequisites)
     2.  [Installation](#installation)
     3.  [Running the App](#running-the-app)
-4.  [Project Structure](#project-structure)
-5.  [Usage](#usage)
-6.  [Contributing](#contributing)
-7.  [License](#license)
+4.  [Usage](#usage)
+5.  [Contributing](#contributing)
+6.  [License](#license)
 
 ---
 
@@ -73,28 +72,6 @@ Login page: https://to-do-webapp-rose.vercel.app/login.html
     node server.js
     
 2.  Open the `index.html` file in the `todo-list-frontend` directory in your browser to use the application.
-
----
-
-## Project Structure
-
-├── todo-list-backend
-│   ├── models
-│   │   ├── Task.js
-│   │   └── User.js
-│   ├── routes
-│   │   └── auth.js
-│   ├── .env.example
-│   ├── package.json
-│   └── server.js
-└── todo-list-frontend
-├── index.html
-├── login.html
-├── signup.html
-├── script.js
-├── login.js
-├── signup.js
-└── style.css
 
 ---
 ## Usage
