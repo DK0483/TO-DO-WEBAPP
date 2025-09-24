@@ -4,7 +4,7 @@ const errorMessageDiv = document.getElementById('error-message');
 const emailInput = document.getElementById('email-input');
 const passwordInput = document.getElementById('password-input');
 
-const API_URL = 'https://my-todo-list-api-pbbh.onrender.com';
+const API_URL = 'https://my-todo-list-api-pbbh.onrender.com/api/auth/signup';
 
 // --- UI Helper Functions ---
 
