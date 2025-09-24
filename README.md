@@ -1,4 +1,3 @@
-`markdown
 # TO-DO WebApp
 
 A simple To-Do task management web application (frontend + backend) with user authentication.
@@ -79,9 +78,6 @@ Login page: https://to-do-webapp-rose.vercel.app/login.html
 
 ## Project Structure
 
-`
-
-.
 ├── todo-list-backend
 │   ├── models
 │   │   ├── Task.js
@@ -100,10 +96,7 @@ Login page: https://to-do-webapp-rose.vercel.app/login.html
 ├── signup.js
 └── style.css
 
-
-
 ---
-
 ## Usage
 
 1.  **Register**: Create a new account from the signup page.
@@ -113,7 +106,6 @@ Login page: https://to-do-webapp-rose.vercel.app/login.html
 5.  **Logout**: Click the "Logout" button to end your session.
 
 ---
-
 ## Contributing
 
 Contributions are what make the open-source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
@@ -128,7 +120,5 @@ Don't forget to give the project a star! Thanks again!
 5.  Open a Pull Request
 
 ---
-
 ## License
-
 Distributed under the MIT License. See `LICENSE` for more information.
