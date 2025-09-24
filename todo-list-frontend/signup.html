@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login / Register</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="background-orbs">
+        <div class="orb orb1"></div>
+        <div class="orb orb2"></div>
+        <div class="orb orb3"></div>
+        <div class="orb orb4"></div>
+        <div class="orb orb5"></div>
+        <div class="orb orb6"></div>
+    </div>
+
+    <div class="auth-container"> <h1>Signup</h1> <div id="error-message" class="error-box"></div> <form id="login-form"> <input type="email" id="email-input" class="input-field" placeholder="Email" required autocomplete="email">
+            <input type="password" id="password-input" class="input-field" placeholder="Password" required autocomplete="current-password">
+            <button type="submit" id="submit-button" class="submit-btn">
+                <span class="button-text">Login</span> <div class="loader"></div>
+            </button>
+        </form>
+        <p class="auth-switch">
+            Already have an account? <a href="/login.html">Login</a> </p>
+    </div>
+
+    <script src="login.js"></script> </body>
+</html>
